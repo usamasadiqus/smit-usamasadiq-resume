@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -13,6 +13,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
 }
 
 .container {
@@ -45,6 +46,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
@@ -72,11 +74,13 @@ body {
   text-align: center;
   font-weight: 600;
   line-height: 1.4em;
+  font-family: "Open Sans", sans-serif;
 }
 
 .profileText h2 span {
   font-size: 0.8em;
   font-weight: 300;
+  font-family: "Open Sans", sans-serif;
 }
 
 .contactInfo {
@@ -89,6 +93,7 @@ body {
   font-weight: 600;
   letter-spacing: 1px;
   margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .contactInfo ul {
@@ -112,11 +117,13 @@ body {
 .contactInfo ul li span {
   color: #fff;
   font-weight: 300;
+  font-family: "Open Sans", sans-serif;
 }
 
 .contactInfo ul li span a {
   color: #fff;
   text-decoration: none;
+  font-family: "Open Sans", sans-serif;
 }
 
 .contactInfo ul li span a:hover {
@@ -130,16 +137,19 @@ body {
 .contactInfo.education h5 {
   color: #03a9fa;
   font-weight: 500;
+  font-family: "Open Sans", sans-serif;
 }
 
 .contactInfo.education h4:nth-child(2) {
   color: #fff;
   font-weight: 500;
+  font-family: "Open Sans", sans-serif;
 }
 
 .contactInfo.education h4 {
   color: #fff;
   font-weight: 300;
+  font-family: "Open Sans", sans-serif;
 }
 
 .contactInfo.language .percent {
@@ -149,6 +159,7 @@ body {
   background: #081921;
   display: block;
   margin-top: 5px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .contactInfo.language .percent div {
@@ -161,10 +172,12 @@ body {
 
 .about {
   margin-bottom: 50px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .about:last-child {
   margin-bottom: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 .title2 {
@@ -172,10 +185,12 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
 }
 
 p {
   color: #333;
+  font-family: "Open Sans", sans-serif;
 }
 
 .about .box {
@@ -186,6 +201,7 @@ p {
 
 .about .box .year_company {
   min-width: 150px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .about .box .year_company h5 {
@@ -193,12 +209,14 @@ p {
   color: #848c90;
   font-weight: 600;
   font-size: 11px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .about .box .text h4 {
   text-transform: uppercase;
   color: #2a7da2;
   font-size: 16px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .skills .box {
@@ -215,6 +233,7 @@ p {
   color: #848c99;
   font-weight: 500;
   font-size: 12px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .skills .box .percent {
@@ -242,6 +261,7 @@ p {
   color: #333;
   font-weight: 500;
   margin: 10px 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 .interest ul li .fa {
