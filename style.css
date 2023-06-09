@@ -16,6 +16,8 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+/* Container */
+
 .container {
   position: relative;
   width: 100%;
@@ -40,7 +42,11 @@ body {
   padding: 40px;
 }
 
-.profileText {
+/* End Container */
+
+/* Profile Section */
+
+.profileSection {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -50,7 +56,7 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.profileText .imgBx {
+.profileSection .imgBx {
   position: relative;
   width: 200px;
   height: 200px;
@@ -58,7 +64,7 @@ body {
   overflow: hidden;
 }
 
-.profileText .imgBx img {
+.profileSection .imgBx img {
   position: absolute;
   left: 0;
   width: 100%;
@@ -66,7 +72,7 @@ body {
   object-fit: cover;
 }
 
-.profileText h2 {
+.profileSection h2 {
   color: #fff;
   font-size: 1.5em;
   margin-top: 20px;
@@ -77,13 +83,17 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.profileText h2 span {
+.profileSection h2 span {
   font-size: 0.8em;
   font-weight: 300;
   font-family: "Open Sans", sans-serif;
 }
 
-.contactInfo {
+/* End Profile Section */
+
+/* Contact Section */
+
+.contactSection {
   padding-top: 40px;
 }
 
@@ -96,63 +106,63 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.contactInfo ul {
+.contactSection ul {
   position: relative;
 }
 
-.contactInfo ul li {
+.contactSection ul li {
   position: relative;
   list-style: none;
   margin: 10px 0;
   cursor: pointer;
 }
 
-.contactInfo ul li .icon {
+.contactSection ul li .icon {
   display: inline-block;
   width: 30px;
   font-size: 18px;
   color: #03a9fa;
 }
 
-.contactInfo ul li span {
+.contactSection ul li span {
   color: #fff;
   font-weight: 300;
   font-family: "Open Sans", sans-serif;
 }
 
-.contactInfo ul li span a {
+.contactSection ul li span a {
   color: #fff;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
 }
 
-.contactInfo ul li span a:hover {
+.contactSection ul li span a:hover {
   color: gray;
 }
 
-.contactInfo.education li {
+.contactSection.education li {
   margin-bottom: 15px;
 }
 
-.contactInfo.education h5 {
+.contactSection.education h5 {
   color: #03a9fa;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
 }
 
-.contactInfo.education h4:nth-child(2) {
+.contactSection.education h4:nth-child(2) {
   color: #fff;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
 }
 
-.contactInfo.education h4 {
+.contactSection.education h4 {
   color: #fff;
   font-weight: 300;
   font-family: "Open Sans", sans-serif;
 }
 
-.contactInfo.language .percent {
+.contactSection.language .percent {
   position: relative;
   width: 100%;
   height: 6px;
@@ -162,7 +172,7 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-.contactInfo.language .percent div {
+.contactSection.language .percent div {
   position: absolute;
   top: 0;
   left: 0;
@@ -170,12 +180,16 @@ body {
   background: #03a9f4;
 }
 
-.about {
+/* End Contact Section */
+
+/* About */
+
+.aboutSection {
   margin-bottom: 50px;
   font-family: "Open Sans", sans-serif;
 }
 
-.about:last-child {
+.aboutSection:last-child {
   margin-bottom: 0;
   font-family: "Open Sans", sans-serif;
 }
@@ -193,18 +207,18 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
-.about .box {
+.aboutSection .box {
   display: flex;
   flex-direction: row;
   margin: 20px 0;
 }
 
-.about .box .year_company {
+.aboutSection .box .year_company {
   min-width: 150px;
   font-family: "Open Sans", sans-serif;
 }
 
-.about .box .year_company h5 {
+.aboutSection .box .year_company h5 {
   text-transform: uppercase;
   color: #848c90;
   font-weight: 600;
@@ -212,14 +226,18 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
-.about .box .text h4 {
+.aboutSection .box .text h4 {
   text-transform: uppercase;
   color: #2a7da2;
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
 }
 
-.skills .box {
+/* End About Section */
+
+/* Skill Section */
+
+.skillSection .box {
   position: relative;
   width: 100%;
   display: grid;
@@ -228,7 +246,7 @@ p {
   align-items: center;
 }
 
-.skills .box h4 {
+.skillSection .box h4 {
   text-transform: uppercase;
   color: #848c99;
   font-weight: 500;
@@ -236,14 +254,14 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
-.skills .box .percent {
+.skillSection .box .percent {
   position: relative;
   width: 100%;
   height: 10px;
   background: #f0f0f0;
 }
 
-.skills .box .percent div {
+.skillSection .box .percent div {
   position: absolute;
   top: 0;
   left: 0;
@@ -251,45 +269,27 @@ p {
   background: #03a9f4;
 }
 
-.interest ul {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
+/* End Skills Section */
 
-.interest ul li {
-  list-style: none;
-  color: #333;
-  font-weight: 500;
-  margin: 10px 0;
-  font-family: "Open Sans", sans-serif;
-}
-
-.interest ul li .fa {
-  color: #03a9fa;
-  font-size: 18px;
-  width: 20px;
-}
+/* Breakpoints for Responsiveness */
 
 @media (max-width: 1000px) {
   .container {
     margin: 10px;
     grid-template-columns: repeat(1, 1fr);
   }
-  .interest ul {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
+
 @media (max-width: 600px) {
-  .about .box {
+  .aboutSection .box {
     flex-direction: column;
   }
-  .about .box .year_company {
+
+  .aboutSection .box .year_company {
     margin-bottom: 5px;
   }
-  .interest ul {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .skills .box {
+
+  .skillSection .box {
     grid-template-columns: repeat(1, 1fr);
   }
 }
